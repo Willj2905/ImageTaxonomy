@@ -1,0 +1,222 @@
+body {
+  background-color: #FFFFFF;
+}
+
+@font-face {
+  font-family: "Rockwell";
+}
+
+#Quiz {
+  height: 50px;
+  width: 150px;
+}
+
+#Q1 {
+  position: relative;
+}
+
+#img1 {
+  background-image: url("Pictures/Will Jones, Image 03.png");
+  background-color: #01becd;
+  background-size: 82% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img2 {
+  background-image: url("Pictures/Arya Meade, Image 02.jpg");
+  background-color: #75239c;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img3 {
+  background-image: url("Pictures/Caroline Mccabe, Image 02.jpg");
+  background-color: #fe0141;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img4 {
+  background-image: url("Pictures/Chloe Maclean, Image 01.jpeg");
+  background-color: #fec501;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.question {
+  left: 50px;
+  top: 20px;
+  position: relative;
+  max-width: 900px;
+}
+
+.image {
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  border: none;
+  filter: opacity(75%);
+  transition: filter .5s;
+}
+
+.name {
+  font-family: "Avenir";
+  font-size: 14pt;
+  color: #282828;
+  position: relative;
+  padding: 5px;
+  top: 160px;
+  left: 30px;
+  width: 250px;
+  height: 25px;
+  z-index: 0;
+  border: 1px solid #282828;
+}
+
+.logo {
+  position: fixed;
+  top: 0px;
+  left: 10px;
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+  z-index: 2;
+}
+
+.navtext {
+  font-family: "Rockwell";
+  font-size: 18pt;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 5px;
+  padding-left: 10px;
+}
+
+.separator {
+  bottom: -45px;
+  position: relative;
+  width: 150px;
+  height: 5px;
+  transition: height .5s, bottom .5s;
+}
+
+.questiontext {
+  display: inline-block;
+color: #282828;
+  font-family: "Avenir";
+  font-weight: bold;
+  text-align: left;
+  font-size: 24pt;
+  position: relative;
+}
+
+.heading {
+  display: inline-block;
+color: #282828;
+  font-family: "Avenir";
+  font-weight: bold;
+  text-align: left;
+  font-size: 40pt;
+  position: relative;
+}
+
+.subheading {
+  display: inline-block;
+  color: #282828;
+  font-family: "Avenir";
+  text-align: left;
+  font-size: 12pt;
+  position: relative;
+}
+
+.container {
+  left: 30px;
+  display: inline-block;
+  position: absolute;
+  width: 90%;
+}
+
+.navbar {
+  background-color: #282828;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0px 0px 5px #282828;
+  z-index: 2;
+}
+
+.title {
+  font-size: 24pt;
+  line-height: 50px;
+  font-family: "Rockwell";
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  background-color: #333333;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 50px;
+}
+
+.tab {
+  line-height: 50px;
+  position: fixed;
+  top: 0px;
+  left: 70px;
+  width: 150px;
+  height: 50px;
+  z-index: 2;
+}
+
+.droptab {
+  background-color: #282828;
+  line-height: 50px;
+  position: relative;
+  display: inline-block;
+  top: 0px;
+  width: 200px;
+  height: 50px;
+  transition: background-color .5s;
+}
+
+.dropdown {
+  position: fixed;
+  top: -100px;
+  left: 220px;
+  width: 200px;
+  background-color: #282828;
+  z-index: 1;
+  box-shadow: 0px 0px 5px black;
+  transition: top .5s;
+}
+
+#Quiz:hover .dropdown {
+    top: 42px;
+}
+
+#Quiz:hover .separator {
+  bottom: 0px;
+  height: 50px;
+}
+
+.image:hover {
+  filter: opacity(100%);
+}
+
+.tab:hover .separator{
+  bottom: 0px;
+  height: 50px;
+}
+
+.droptab:hover {
+  background-color: #1a1a1a;
+}
