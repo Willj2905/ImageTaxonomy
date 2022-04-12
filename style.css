@@ -2,6 +2,18 @@ body {
   background-color: #FFFFFF;
 }
 
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 @font-face {
   font-family: "Rockwell";
 }
@@ -16,50 +28,361 @@ body {
 }
 
 #img1 {
-  background-image: url("Pictures/Will Jones, Image 03.png");
-  background-color: #01becd;
-  background-size: 82% auto;
+  background-image: url("Pictures/Will Jones, Image 02.jpeg");
+  background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #img2 {
   background-image: url("Pictures/Arya Meade, Image 02.jpg");
-  background-color: #75239c;
-  background-size: auto 100%;
+  background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #img3 {
   background-image: url("Pictures/Caroline Mccabe, Image 02.jpg");
-  background-color: #fe0141;
-  background-size: auto 100%;
+  background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #img4 {
   background-image: url("Pictures/Chloe Maclean, Image 01.jpeg");
-  background-color: #fec501;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img5 {
+  background-image: url("Pictures/Abby Conrad, Image 01.png");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img6 {
+  background-image: url("Pictures/Abby Klein, Image 01.jpg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img7 {
+  background-image: url("Pictures/Abby Lee, Image 01.jpeg");
+  background-size: 100% auto;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+#img8 {
+  background-image: url("Pictures/Arya Meade, Image 01.jpg");
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+#img9 {
+  background-image: url("Pictures/Abby Chillot, Image 01.jpeg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img10 {
+  background-image: url("Pictures/Caroline McCabe, Image 03.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img11 {
+  background-image: url("Pictures/Katie Weyrich, Image 03.jpg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img12 {
+  background-image: url("Pictures/Chloe Maclean, Image 03.jpeg");
+  background-size: 100% auto;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+#img13 {
+  background-image: url("Pictures/Abby Chillot, Image 03.jpeg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img14 {
+  background-image: url("Pictures/Laura Da Silva, Image 02.jpg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img15 {
+  background-image: url("Pictures/Maria Behnke, Image 01.jpeg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img16 {
+  background-image: url("Pictures/Tori Fuller, Image 03.JPG");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img17 {
+  background-image: url("Pictures/Sydney Johnson, Image 03.jpeg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img18 {
+  background-image: url("Pictures/Julia Kindle, Image 03.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img19 {
+  background-image: url("Pictures/Emily Dinh, Image 02.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img20 {
+  background-image: url("Pictures/Chloe Maclean, Image 02.jpeg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img21 {
+  background-image: url("Pictures/Caroline Versaw, Image 02.jpeg");
+  background-size: 100% auto;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+#img22 {
+  background-image: url("Pictures/Brandon Spence, Image 02.jpeg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img23 {
+  background-image: url("Pictures/Sydney Johnson, Image 01.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img24 {
+  background-image: url("Pictures/Tori Fuller, Image 01.JPG");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img25 {
+  background-image: url("Pictures/Will Jones, Image 01.jpeg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img26 {
+  background-image: url("Pictures/Katie Weyrich, Image 02.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img27 {
+  background-image: url("Pictures/Juliette Good, Image 02.jpg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img28 {
+  background-image: url("Pictures/Julia Kindle, Image 01.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img29 {
+  background-image: url("Pictures/Grace Cheung, Image 02.jpeg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img30 {
+  background-image: url("Pictures/Emily Dinh, Image 01.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img31 {
+  background-image: url("Pictures/Abby Lee, Image 03.jpeg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img32 {
+  background-image: url("Pictures/Abby Klein, Image 02.jpg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img33 {
+  background-image: url("Pictures/Abby Chillot, Image 02.jpeg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img34 {
+  background-image: url("Pictures/Arya Meade, Image 03.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img35 {
+  background-image: url("Pictures/Brandon Spence, Image 03.jpg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img36 {
+  background-image: url("Pictures/Juliette Good, Image 01.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img37 {
+  background-image: url("Pictures/Julia Kindle, Image 02.jpg");
+  background-size: 100% auto;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+#img38 {
+  background-image: url("Pictures/Grace Cheung, Image 01.jpeg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img39 {
+  background-image: url("Pictures/Brandon Spence, Image 01.jpeg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img40 {
+  background-image: url("Pictures/Abby Lee, Image 02.jpeg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img41 {
+  background-image: url("Pictures/Ben Kaynor, Image 02.png");
+  top: 50px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img42 {
+  background-image: url("Pictures/Will Jones, Image 03.png");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img43 {
+  background-image: url("Pictures/Maria Behnke, Image 02.jpeg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img44 {
+  background-image: url("Pictures/HotPocket.jpg");
+  height: 233.3333px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img45 {
+  background-image: url("Pictures/Caroline Versaw, Image 03.jpeg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img46 {
+  background-image: url("Pictures/Abby Klein, Image 03.jpg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img47 {
+  background-image: url("Pictures/Ben Kaynor, Image 01.jpg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#Sponsored {
+  font-weight: normal;
+  font-size: 10px;
+  top: 233.3333px;
+}
+
+.results {
+  position: absolute;
+  top: 130px;
+  display: none;
 }
 
 .question {
   left: 50px;
   top: 20px;
   position: relative;
-  max-width: 900px;
+  max-width: 1500px;
 }
 
 .image {
-  margin: 10px;
-  width: 300px;
-  height: 300px;
+  margin: 5px;
+  width: 250px;
+  height: 250px;
   border: none;
-  filter: opacity(75%);
+  filter: opacity(50%);
   transition: filter .5s;
 }
 
@@ -69,12 +392,66 @@ body {
   color: #282828;
   position: relative;
   padding: 5px;
-  top: 160px;
-  left: 30px;
+  top: 40px;
+  right: 210px;
   width: 250px;
   height: 25px;
   z-index: 0;
-  border: 1px solid #282828;
+  border: none;
+  border-bottom: 4px solid #282828;
+}
+
+.name:focus {
+  outline: 0px;
+  border-bottom: 4px solid #282828;
+}
+
+.submit {
+  width: 100px;
+  height: 35px;
+  background-color: transparent;
+  border: none;
+  border-radius: 35px;
+  outline: 4px solid #282828;
+  top: 100px;
+  right: 475px;
+  position: relative;
+  font-family: "Avenir";
+  font-size: 14pt;
+  color: #282828;
+}
+
+.ads {
+  position: absolute;
+  right: 0px;
+  top: 120px;
+}
+
+.advert {
+  position: relative;
+  margin: -100px;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.adtext {
+  color: #282828;
+  font-family: "Avenir";
+  font-weight: bold;
+  text-align: left;
+  font-size: 14pt;
+  position: relative;
+  top: 200px;
+}
+
+.bottombar {
+  position: relative;
+  width: 100%;
+  height: 75px;
+  top: 130px;
+  left: 0px;
+  background-color: white;
 }
 
 .logo {
@@ -107,7 +484,7 @@ body {
 
 .questiontext {
   display: inline-block;
-color: #282828;
+  color: #282828;
   font-family: "Avenir";
   font-weight: bold;
   text-align: left;
@@ -117,7 +494,7 @@ color: #282828;
 
 .heading {
   display: inline-block;
-color: #282828;
+  color: #282828;
   font-family: "Avenir";
   font-weight: bold;
   text-align: left;
@@ -180,6 +557,7 @@ color: #282828;
 .droptab {
   background-color: #282828;
   line-height: 50px;
+    margin-bottom: -5px;
   position: relative;
   display: inline-block;
   top: 0px;
@@ -192,6 +570,7 @@ color: #282828;
   position: fixed;
   top: -100px;
   left: 220px;
+  height: 100px;
   width: 200px;
   background-color: #282828;
   z-index: 1;
@@ -199,8 +578,52 @@ color: #282828;
   transition: top .5s;
 }
 
+.searchbar {
+  font-family: "Avenir";
+  font-size: 18pt;
+  color: white;
+  text-indent: 5px;
+  height: 25px;
+  width: 300px;
+  position: fixed;
+  top: 10px;
+  left: 1250px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 4px solid #b3b3b3;
+  z-index: 2;
+  transition: border-bottom .5s;
+}
+
+.glass {
+  position: fixed;
+  top: 10px;
+  left: 1200px;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  border: 4px solid #b3b3b3;
+  background: transparent;
+  z-index: 2;
+  transition: border .5s;
+}
+
+.handle {
+  position: fixed;
+  top: 32px;
+  left: 1216px;
+  width: 15px;
+  height: 4px;
+  transform: rotate(45deg);
+  border-radius: 4px;
+  border: none;
+  background-color: #b3b3b3;
+  z-index: 2;
+  transition: background-color .5s;
+}
+
 #Quiz:hover .dropdown {
-    top: 42px;
+  top: 42px;
 }
 
 #Quiz:hover .separator {
@@ -212,11 +635,36 @@ color: #282828;
   filter: opacity(100%);
 }
 
-.tab:hover .separator{
+.tab:hover .separator {
   bottom: 0px;
   height: 50px;
 }
 
 .droptab:hover {
   background-color: #1a1a1a;
+}
+
+.searchbar:focus {
+  outline: 0px;
+  border-bottom: 4px solid white;
+}
+
+.searchbar:hover {
+  border-bottom: 4px solid white;
+}
+
+.search:hover .glass {
+  border: 4px solid white;
+}
+
+.search:hover .handle {
+  background: white;
+}
+
+.searchbar:focus ~ .handle {
+  background: white;
+}
+
+.searchbar:focus ~ .glass {
+  border: 4px solid white;
 }

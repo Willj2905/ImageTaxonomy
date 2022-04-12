@@ -14,6 +14,11 @@
 <body>
   <div class="navbar"></div>
   <img class="logo" src="Pictures/Lgma.png">
+  <div class="search">
+    <input type="text" class="searchbar" placeholder="Search..." name="Search" value="">
+    <div class="glass"></div>
+    <div class="handle"></div>
+  </div>
   <div class="tab">
     <div style="background-color:#01becd" class="separator"></div>
     <div class="navtext">
@@ -30,12 +35,12 @@
     <div class="dropdown">
       <div style="top:0px;" class="droptab">
         <div class="navtext">
-          Bruh
+          <a href="Home.html">Health</a>
         </div>
       </div>
       <div style="top:0px;" class="droptab">
         <div class="navtext">
-          Bro
+          <a href="TMNTQuiz.html">TMNT</a>
         </div>
       </div>
     </div>
@@ -58,18 +63,199 @@
     <br>
     <div style="top:-5px" class="subheading">This is the first online quiz that can diagnose you for any medical issues you may have with 100% accuracy!</div>
     <br>
-<div id="Q1" class="question">
-<div class="questiontext">
-  Which image do you prefer?
-</div>
+    <div id="questions">
+    <div id="Q1" class="question">
+      <div class="questiontext">
+        Which image do you prefer?
+      </div>
+      <br>
+      <button id='img1' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img2' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img3' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img4' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+    </div>
+    <br>
+    <br>
+    <div id="Q2" class="question">
+      <div class="questiontext">
+        Which image do you prefer?
+      </div>
+      <br>
+      <button id='img5' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img6' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img7' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img8' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+    </div>
+    <br>
+    <br>
+    <div id="Q3" class="question">
+      <div class="questiontext">
+        Which image do you prefer?
+      </div>
+      <br>
+      <button id='img9' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img10' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img11' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img12' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+    </div>
+    <br>
+    <br>
+    <div id="Q4" class="question">
+      <div class="questiontext">
+        Which image do you prefer?
+      </div>
+      <br>
+      <button id='img13' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img14' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img15' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img16' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+    </div>
+    <br>
+    <br>
+    <div id="Q5" class="question">
+      <div class="questiontext">
+        Which image do you prefer?
+      </div>
+      <br>
+      <button id='img17' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img18' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img19' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img20' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+    </div>
+    <br>
+    <br>
+    <div id="Q6" class="question">
+      <div class="questiontext">
+        Which image do you prefer?
+      </div>
+      <br>
+      <button id='img21' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img22' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img23' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img24' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+    </div>
+    <br>
+    <br>
+    <div id="Q7" class="question">
+      <div class="questiontext">
+        Which image do you prefer?
+      </div>
+      <br>
+      <button id='img25' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img26' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img27' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img28' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+    </div>
+    <br>
+    <br>
+    <div id="Q8" class="question">
+      <div class="questiontext">
+        Which image do you prefer?
+      </div>
+      <br>
+      <button id='img29' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img30' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img31' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img32' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+    </div>
+    <br>
+    <br>
+    <div id="Q9" class="question">
+      <div class="questiontext">
+        Which image do you prefer?
+      </div>
+      <br>
+      <button id='img33' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img34' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img35' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img36' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+    </div>
+    <br>
+    <br>
+    <div id="Q10" class="question">
+      <div class="questiontext">
+        Which image do you prefer?
+      </div>
+      <br>
+      <button id='img37' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img38' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img39' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+      <button id='img40' onclick="select(this)" class="image" type="submit" name="" value=""></button>
+    </div>
+    <br>
+    <br>
+    <div style="left:50px;" class="subheading">Enter your name to get your results!</div>
+    <input id="name" class="name" placeholder="Enter your name" type="text" name="name" value="">
+    <input class="submit" type="submit" name="submit" onclick="results()" value="Submit">
+  </div>
+    <div class="bottombar"></div>
+
+    <div class="results" id="chlamydia">
+<div class="questiontext">Sorry <span id="patient1"></span>, but you have chlamydia.</div>
 <br>
-<button id='img1' class="image" type="submit" onclick="blur()" name="" value=""></button>
-<button id='img2' class="image" type="submit" onclick="blur()" name="" value=""></button>
-<button id='img3' class="image" type="submit" onclick="blur()" name="" value=""></button>
-<button id='img4' class="image" type="submit" onclick="blur()" name="" value=""></button>
+<div class="subheading">"If you do touch each other you will get chlamydia, and die." - Coach Carr</div>
 </div>
-  <input class="name" placeholder="Enter your name" type="text" name="name" value="">
+    <div class="results" id="herpes">
+      <div class="questiontext">Sorry <span id="patient2"></span>, but you have herpes.</div>
+      <br>
+      <div class="subheading">1 in 2 American adults have oral herpes so congrats on being normal I guess.</div>
+    </div>
+    <div class="results" id="dumb">
+      <div class="questiontext">Well according to my results <span id="patient3"></span>, you're not sick you're just not that smart.</div>
+      <br>
+      <div class="subheading">At least you're healthy though.</div>
+    </div>
+    <div class="results" id="nude">
+      <div class="questiontext">So it would appear <span id="patient4"></span>, that you're a never nude.</div>
+      <br>
+      <div class="subheading">Stop wearing cutoffs, it's not a look.</div>
+    </div>
+    <div class="results" id="dehydrate">
+      <div class="questiontext">Well <span id="patient5"></span>, you don't have a disease but you're wildly dehydrated.</div>
+      <br>
+      <div class="subheading">Maybe drink some water because I'm pretty sure you'll die without it.</div>
 </div>
+    <div class="results" id="healthy">
+      <div class="questiontext">Congrats <span id="patient6"></span>, you're perfectly healthy.</div>
+      <br>
+      <div class="subheading">Congrats on being lame.</div>
+</div>
+<div class="ads">
+  <div class="questiontext">Featured Stories</div>
+  <br>
+  <br>
+  <br>
+  <br>
+<div id="img41" class="advert">
+<div class="adtext">How to be an alpha male with 3 easy steps!</div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="img42" class="advert">
+<div class="adtext">This secret hack may make family dinners more enjoyable!</div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="img43" class="advert">
+<div class="adtext">Find out where these child stars are now!</div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="img44" class="advert">
+<div id="Sponsored" class="adtext">Sponsored</div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="img45" class="advert">
+<div class="adtext">Our pick for the top 10 tapestries to decorate your home!</div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="img46" class="advert">
+<div class="adtext">Scientists find strange creature in Amazon Rainforest...</div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="img47" class="advert">
+<div class="adtext">"I don't care about child labor, they need to make the green M&M sexy again!" <br>- Alex Jones</div>
+</div>
+</div>
+  </div>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="function.js"></script>
 
